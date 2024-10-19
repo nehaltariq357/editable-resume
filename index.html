@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="resumeForm">
+        <h1>Resume Generator Form</h1>
+        <div>
+            <h2>Personal Info</h2>
+            <input type="text" name="yourName" placeholder="Enter your name" required>
+            <input type="text" name="yourTitle" placeholder="Enter your title" required>
+        </div>
+        <div>
+            <h2>Profile Picture</h2>
+            <input type="file" name="imageFile" accept="image/*" id="imageFile" required>
+        </div>
+        <div>
+            <h2>About Me</h2>
+            <textarea name="desc" placeholder="Description" required></textarea>
+        </div>
+        <div>
+            <h2>Contact</h2>
+            <input type="text" name="yourEmail" placeholder="Enter your email" required>
+            <input type="text" name="yourPhone" placeholder="Enter your phone" required>
+            <input type="text" name="yourLocation" placeholder="Enter your location" required>
+        </div>
+        <div>
+            <h2>Skills</h2>
+            <input type="text" name="skill1" placeholder="Enter your skill" required>
+            <input type="text" name="skill2" placeholder="Enter your skill" required>
+            <input type="text" name="skill3" placeholder="Enter your skill" required>
+        </div>
+        <div>
+            <h2>Languages</h2>
+            <input type="text" name="lan1" placeholder="Enter your language" required>
+            <input type="text" name="lan2" placeholder="Enter your language" required>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <input type="text" name="edu" placeholder="Enter your education" required>
+            <input type="text" name="college" placeholder="Enter your college/university" required>
+        </div>
+        <div>
+            <h2>Projects</h2>
+            <input type="text" name="pro1" placeholder="Enter your project" required>
+            <input type="text" name="pro2" placeholder="Enter your project" required>
+            <input type="text" name="pro3" placeholder="Enter your project" required>
+        </div>
+        <button type="submit">Generate Resume</button>
+        <br>
+        <button id="saveChangesBtn" style="display:none;">Save Changes</button>
+    </form>
+
+    <div id="resumeOutput"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
