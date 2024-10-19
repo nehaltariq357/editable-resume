@@ -1,0 +1,1 @@
+versel deployed URL = https://editable-resume-taupe-five.vercel.app/
