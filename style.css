@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color: black;
-    color: white;
+    color: rgb(235, 235, 235);
+    background-color: rgb(15, 15, 30);
     padding: 20px;
 }
 #saveChangesBtn{
@@ -24,7 +24,7 @@ input, textarea {
 
 button {
     padding: 10px 20px;
-    background-color: rgb(243, 113, 20);
+    background-color: rgb(255, 204, 0);
     color: white;
     border: none;
     border-radius: 5px;
@@ -35,12 +35,12 @@ button {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(46, 42, 42);
+    background-color: rgb(35, 35, 60);
     border-radius: 10px;
 }
 
 h1, h2, h3 {
-    color: rgb(243, 113, 20);
+    color:rgb(255, 204, 0);
 }
 
 .profile img {
@@ -75,7 +75,7 @@ ul {
 #resumeOutput {
     margin-top: 40px;
     padding: 20px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(15, 15, 30);
     color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -84,7 +84,7 @@ ul {
 #resumeOutput h1, 
 #resumeOutput h2, 
 #resumeOutput h3 {
-    color: rgb(243, 113, 20);
+    color:rgb(255, 204, 0);
 }
 
 #resumeOutput ul {
